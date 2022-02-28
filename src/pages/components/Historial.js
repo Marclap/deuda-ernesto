@@ -1,12 +1,12 @@
 export default function Historial() {
     return (
-        <div className="justify-center  w-full">
-            <div className=" px-4">
-                <div className="bg-fondoSecundario rounded-xl relative z-10 overflow-hidden border border-colorBorde border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
+        <div className="justify-center w-full">
+            <div className="px-4 ">
+                <div className="relative z-10 px-8 py-10 mb-10 overflow-hidden border bg-fondoSecundario rounded-xl border-colorBorde border-opacity-20 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12">
                     <h2 className="font-bold text-dark mb-5 text-[42px]">
                         Historial
                     </h2>
-                    <p className="text-base text-body-color pb-8 mb-8 border-b border-colorLinea"></p>
+                    <p className="pb-8 mb-8 text-base border-b text-body-color border-colorLinea"></p>
                     <div className="mb-7">
                         <ul role="list">
                             <li className="py-3">

@@ -7,30 +7,30 @@ export default function Card({
     valorUltimoPago,
 }) {
     return (
-        <div className="flex flex-wrap justify-center -mx-4 w-full">
+        <div className="flex flex-wrap justify-center w-full -mx-4">
             <div className="w-11/12 px-4">
-                <div className="bg-fondoSecundario rounded-xl relative z-10 overflow-hidden border border-colorBorde border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
-                    <span className="text-primary font-semibold text-lg block mb-4">
+                <div className="relative z-10 px-8 py-10 mb-10 overflow-hidden border bg-fondoSecundario rounded-xl border-colorBorde border-opacity-20 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12">
+                    <span className="block mb-4 text-lg font-semibold text-primary">
                         {titulo}
                     </span>
                     <h2 className="font-bold text-dark mb-5 text-[42px]">
                         ${precio}
                     </h2>
-                    <p className="text-base text-body-color pb-8 mb-8 border-b border-colorLinea">
+                    <p className="pb-8 mb-8 text-base border-b text-body-color border-colorLinea">
                         {fecha != '' ? fecha : <br />}
                     </p>
-                    <div className="mb-7 text-center">
-                        <p className="text-base text-body-color leading-loose mb-1">
+                    <div className="text-center mb-7">
+                        <p className="mb-1 text-base leading-loose text-body-color">
                             Interes: {interes}
                         </p>
-                        <p className="text-base text-body-color leading-loose mb-1">
+                        <p className="mb-1 text-base leading-loose text-body-color">
                             {fechaUltimoPago != '' ? (
                                 `Última fecha de pago: ${fechaUltimoPago}`
                             ) : (
                                 <br />
                             )}
                         </p>
-                        <p className="text-base text-body-color leading-loose mb-1">
+                        <p className="mb-1 text-base leading-loose text-body-color">
                             {valorUltimoPago != '' ? (
                                 `Último valor de pago: ${valorUltimoPago}`
                             ) : (
