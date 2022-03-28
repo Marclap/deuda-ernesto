@@ -4,7 +4,7 @@ import Historial from './components/Historial'
 
 export default function Home() {
     let valores = {
-        deuda1: 812000,
+        deuda1: 824180,
         deuda2: 609000,
     }
     return (
