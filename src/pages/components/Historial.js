@@ -90,7 +90,7 @@ export default function Historial() {
                                         </p>
                                     </div>
                                     <div className="inline-flex items-center text-base font-semibold text-gray-900">
-                                        $400000
+                                        $406000
                                     </div>
                                 </div>
                             </li>
