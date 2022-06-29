@@ -40,7 +40,7 @@ export default function Home() {
                         />
                         <Card
                             titulo={'Deuda total'}
-                            precio={valores.deuda1 + valores.deuda2}
+                            precio={valores.deuda2}
                             fecha={''}
                             fechaUltimoPago={''}
                             valorUltimoPago={''}

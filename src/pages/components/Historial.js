@@ -92,6 +92,15 @@ export default function Historial() {
                                     <div className="inline-flex items-center text-base font-semibold text-gray-900">
                                         $406000
                                     </div>
+                                </div>
+                            </li>
+                            <li className="py-3">
+                                <div className="flex space-x-4">
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate">
+                                            16/06/2022
+                                        </p>
+                                    </div>
                                     <div className="flex-1 min-w-0">
                                         <p className="text-sm font-medium text-gray-900 truncate">
                                             Deuda
