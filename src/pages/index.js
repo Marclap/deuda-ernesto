@@ -4,8 +4,7 @@ import Historial from './components/Historial'
 
 export default function Home() {
     let valores = {
-        deuda1: 113180,
-        deuda2: 618135,
+        deuda2: 483013,
     }
     return (
         <>
@@ -32,13 +31,6 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="flex flex-row">
-                        <Card
-                            titulo={'Deuda 1'}
-                            precio={valores.deuda1}
-                            fecha={'28/01/2022'}
-                            fechaUltimoPago={''}
-                            valorUltimoPago={''}
-                        />
                         <Card
                             titulo={'Deuda 2'}
                             precio={valores.deuda2}

@@ -92,6 +92,14 @@ export default function Historial() {
                                     <div className="inline-flex items-center text-base font-semibold text-gray-900">
                                         $406000
                                     </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate">
+                                            Deuda
+                                        </p>
+                                    </div>
+                                    <div className="inline-flex items-center text-base font-semibold text-gray-900">
+                                        $250000
+                                    </div>
                                 </div>
                             </li>
                         </ul>
